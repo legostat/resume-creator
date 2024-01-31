@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --container-width: 1146px;
+  --container-padding: 14px;
+
+  --white: #ffffff;
+  --black: #2e2e2e;
+  --black-2: #1e1e1e;
+
+  --gray-100: #e1e7f3;
+  --gray-300: #f5f8fc;
+  --gray-400: #f6f9ff;
+  --gray-500: #bac5db;
+  --gray-600: #b2bacb;
+  --gray-700: #97a3bd;
+
+  --orange: #f5d597;
+  --yellow: #ffedbe;
+  --red: #fd5e5e;
+  --pink: #fff6f6;
+
+  --green: #008d72;
+  --green-icon: #009b7e;
+  --green-dark: #008068;
+
+  --blue: #174594;
+  --light-blue: #f3f5fa;
+
+  --gray-btn-hover: #e7f1fb;
+  --green-btn-hover: #09b998;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  font-optical-sizing: auto;
+  font-stretch: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

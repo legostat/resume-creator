@@ -1,0 +1,33 @@
+.page {
+  flex: 1 1 auto;
+  margin: 20px auto;
+  width: 100%;
+  max-width: calc(var(--container-width) + (2 * var(--container-padding)));
+  padding: {
+    left: var(--container-padding);
+    right: var(--container-padding);
+  }
+
+  &__back_btn {
+    margin-bottom: 20px;
+    width: fit-content;
+    display: flex;
+    padding: 10px 26px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1;
+    letter-spacing: 0.74px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: var(--white);
+    background: var(--green);
+
+    @media screen and (min-width: 1024px) {
+      font-size: 20px;
+    }
+  }
+}
