@@ -17,7 +17,7 @@ export const ReposData = ({ repos }) => {
       <section className={styles.container}>
         <h2 className={styles.title}>Last updated public repos</h2>
         <div className="">
-          {formattedRepos > 0 ? (
+          {formattedRepos.length > 0 ? (
             formattedRepos.map((repo) => (
               <SingleRepo key={repo.id} repo={repo} />
             ))
